@@ -1,0 +1,283 @@
+@media(max-width: 1366px) {}
+
+@media(max-width: 1280px) {}
+
+@media(max-width: 1200px) {}
+
+@media(max-width: 1199px) {
+
+    .form-nav {
+        background-color: white;
+        height: 40px;
+        width: 321px;
+        border-radius: 14px;
+        margin: 19px;
+    }
+
+    .card {
+        background-image: url(model2.jpeg);
+        height: 309px;
+        width: 347px;
+        background-size: cover;
+        padding: 50px;
+        color: white;
+        font-weight: bolder;
+        font-size: x-large;
+        margin-top: 23px;
+    }
+
+    .card1 {
+        background-image: url(vogue1.jpg);
+        height: 309px;
+        width: 315px;
+        background-size: cover;
+        padding: 50px;
+        color: white;
+        font-weight: bolder;
+        font-size: x-large;
+        margin-top: 23px;
+    }
+
+    .card2 {
+        background-image: url(model3.jpg);
+        height: 300px;
+        width: 350px;
+        background-size: cover;
+        padding: 50px;
+        color: white;
+        font-weight: bolder;
+        margin: 22px;
+        font-size: x-large;
+    }
+
+
+
+    .card3 img {
+        height: 386px;
+        width: 368px;
+        background-size: cover;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .img1 {
+        background-image: url(imglong.jpg);
+        height: 459px;
+        width: 354px;
+        background-size: cover;
+        padding: 50px;
+        color: white;
+    }
+
+    .img2 {
+        background-image: url(imageee.jpg);
+        width: 420px;
+        height: 300px;
+        font-weight: bolder;
+        padding: 50px;
+        background-size: cover;
+        margin-top: 20px;
+        color: white;
+        font-size: larger;
+    }
+
+    .card4 img {
+        height: 324px;
+        width: 365px;
+        background-size: cover;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .img3 {
+        background-image: url(folded\ clothes.webp);
+        height: 300px;
+        width: 357px;
+        background-size: cover;
+        font-weight: bolder;
+        text-align-last: center;
+        top: 125px;
+       margin-top: 20px;
+    }
+
+    .img4 {
+        background-image: url(dream.webp);
+        height: 489px;
+        width: 354px;
+        background-size: cover;
+        padding: 50px;
+        color: white;
+    }
+
+    .img5 {
+        background-image: url(red\ image.png);
+        height: 524px;
+        width: 359px;
+        background-size: cover;
+        padding: 50px;
+        color: white;
+    }
+
+    .box2::before {
+        content: "";
+        background-color: grey;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        top: 122px;
+    }
+
+    
+    .sec-9::before {
+        content: " ";
+        background-color: #dcd6d6;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 181px;
+    }
+    
+    
+
+    .list3::before {
+        content: " ";
+        background-color: #dcd6d6;
+        position: absolute;
+        width: 2px;
+        height: 219px;
+        position: absolute;
+        top: -16px;
+        left: 581px;
+    }
+
+    .list3 img {
+        height: 95px;
+        width: 187px;
+    }
+}
+
+@media(max-width: 1024px) {}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 768px) {}
+
+@media(max-width: 767px) {
+
+    .form-nav {
+        background-color: white;
+        height: 40px;
+        width: 302px;
+        border-radius: 14px;
+        margin: 19px;
+    }
+
+    .sec-1 {
+        background-image: url(fashion\ image.jpg);
+        background-size: cover;
+        height: 513px;
+        width: 359px;
+    }
+    .sec-2 {
+        margin-left: -18px;
+        background-color: rgb(244, 232, 218);
+    }
+    .card {
+        background-image: url(model2.jpeg);
+        height: 309px;
+        width: 300px;
+        background-size: cover;
+        padding: 50px;
+        color: white;
+        font-weight: bolder;
+        font-size: x-large;
+       
+    }
+    .card1 {
+        background-image: url(vogue1.jpg);
+        height: 309px;
+        width: 309px;
+        background-size: cover;
+        padding: 50px;
+        color: white;
+        font-weight: bolder;
+        font-size: x-large;
+       
+    }
+    .card2 {
+        background-image: url(model3.jpg);
+        height: 300px;
+        width: 324px;
+        background-size: cover;
+        padding: 50px;
+        color: white;
+        font-weight: bolder;
+       
+        font-size: x-large;
+    }
+    .img1 {
+        background-image: url(imglong.jpg);
+        height: 459px;
+        width: 336px;
+        background-size: cover;
+        padding: 50px;
+        color: white;
+    }
+    .card3 img {
+        height: 335px;
+        width: 343px;
+        background-size: cover;
+        text-align: center;
+        padding: 10px;
+    }
+    .img2 {
+        background-image: url(imageee.jpg);
+        width: 338px;
+        height: 300px;
+        font-weight: bolder;
+        padding: 50px;
+        background-size: cover;
+        
+        color: white;
+       
+    }
+    .img3 {
+        
+            background-image: url(folded\ clothes.webp);
+            height: 300px;
+            width: 347px;
+            background-size: cover;
+            font-weight: bolder;
+            text-align-last: center;
+            top: 125px;
+        }
+       
+    
+    .card4 img {
+        height: 324px;
+        width: 350px;
+        background-size: cover;
+        text-align: center;
+        /* padding: 10px; */
+    }
+    .img5 {
+        background-image: url(red\ image.png);
+        height: 524px;
+        width: 342px;
+        background-size: cover;
+        padding: 50px;
+        color: white;
+    }
+
+    .card4 img {
+        height: 324px;
+        width: 349px;
+        background-size: cover;
+        text-align: center;
+        padding: 10px;
+    }
+
+
+
+}
