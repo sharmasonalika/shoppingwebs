@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Machine Test </title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <section class="Nav-section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <img src="coffeepoint.jpg" style="height: 80px; width: 200px;">
+
+
+            <a class="navbar-brand" href="#"> HOME </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration.html"> User Registration </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html"> Login </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href=" OTP.html"> OTP Verification </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <section class="profile-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="profile">
+                        <img src=" c:\Users\91917\Desktop\React.app\IMG_20211209_174035_011.jpg" alt="Profile Picture">
+                        <h2> Sonalika Sharma </h2>
+                        <p>Email: sharmasonalika@gmail.com </p>
+                        <p>Location: Indore , India </p>
+                        <p>About Me: As the visionary behind [Coffee point ], [sonalika sharma]
+                            embodies the essence of the coffee culture—a connoisseur, an innovator, and a relentless
+                            pursuer of excellence.
+                            With an insatiable passion for the art and science of coffee,
+                            this embarked on a journey to redefine the coffee experience, one cup at a time..</p>
+
+                        <button style="background-color: orange; "> Edit profile </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gif-coffee">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="Gif">
+                    <p> Coffee is a cherished elixir that transcends mere beverage status to become a daily ritual
+                        for millions around the globe. With every sip,
+                        one embarks on a journey of discovery. </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-6">
+                <div class="quote">
+                    <h5> Arabica </h5>
+                    <h5> Dark Roast </h5>
+                    <h5> Columbian </h5>
+                    <h5> Chocalate Mocha </h5>
+                    <h5> Hot chocalate </h5>
+                    <h5> Instant Fresh </h5>
+                    <h5> Many mores >> </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class=" product-module">
+
+        <h1> Products <br> we serve with love </h1>
+        <div class="row">
+
+            <div class="col-sm-4">
+                <div class="product">
+                    <img src="arabica pack.jpg" alt="Product Image">
+                    <h2> Arabica Coffee Beans </h2>
+
+                    <button class="btn btn-primary">Add to Cart ></i></button>
+
+                    <button class="btn-details" onclick="toggleDetails('details1')">View Details</button>
+                    <div id="details1" class="details" style="display: none;" float=>
+
+                        <h5> Stock Available : YES </h5>
+
+                        <img src="product1.jpg" style="border-radius: 100% ;">
+                        <p>Awakening the senses with its rich aroma and bold flavor,
+                            coffee is a cherished elixir that transcends mere beverage status to become a daily ritual
+                            for millions around the globe. With every sip, one embarks on a journey of discovery,
+                            exploring the nuances of its complex profile — from the earthy undertones of freshly ground
+                            beans to the robust intensity of a perfectly brewed cup. </p>
+
+
+                        <p><strong> Price : Rs.1189 / per kg </strong></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-sm-4">
+                <div class="product">
+                    <img src="espresso roast.jpg" alt="Product Image">
+                    <h2> Dark Roast Espresso </h2>
+
+                    <button class="btn btn-primary">Add to Cart</button>
+
+                    <button class="btn-details" onclick="toggleDetails('details2')">View Details</button>
+                    <div id="details2" class="details" style="display: none;">
+                        <h5> Stock Available : YES </h5>
+
+                        <img src="product2.avif" style="border-radius: 100% ;">
+
+                        <p>Whether enjoyed alone in quiet contemplation or shared among friends in lively conversation,
+                            coffee ignites the spirit, invigorating both body and mind.
+                            Its warmth soothes the soul, offering a moment of respite in the hustle and bustle
+                            of modern life. From the tranquil highlands of Ethiopia to the bustling streets of Parisian
+                            cafes,
+                            coffee's allure knows no bounds, weaving its way into the fabric of cultures worldwide.
+                        </p>
+                        <p><strong> Price : Rs.889 / per kg </strong></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-sm-4">
+                <div class="product">
+                    <img src="columbian cofee.jpg" alt="Product Image">
+                    <h2> Decaf Columbian</h2>
+
+                    <button class="btn btn-primary">Add to Cart</button>
+
+                    <button class="btn-details" onclick="toggleDetails('details3')">View Details</button>
+                    <div id="details3" class="details" style="display: none;">
+                        <h5> Stock Available : YES </h5>
+                        <img src="product3.webp" style="border-radius: 100% ;">
+
+                        <p>Awakening the senses with its rich aroma and bold flavor,
+                            coffee is a cherished elixir that transcends mere beverage status to become a daily ritual
+                            for millions around the globe. With every sip, one embarks on a journey of discovery,
+                            exploring the nuances of its complex profile — from the earthy undertones of freshly ground
+                            beans to the robust intensity of a perfectly brewed cup. </p>
+                        <p><strong> Price : Rs.789 / per kg </strong></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-4">
+                <div class="product">
+                    <img src="poco coffee.webp" alt="Product Image">
+                    <h2> Pod-co (hot choclate)</h2>
+
+                    <button class="btn btn-primary">Add to Cart</button>
+                    <button class="btn-details" onclick="toggleDetails('details4')">View Details</button>
+                    <div id="details4" class="details" style="display: none;">
+                        <h5> Stock Available : YES </h5>
+                        <img src="product4.jpg" style="border-radius: 100% ;">
+                        <p> Whether enjoyed alone in quiet contemplation or shared among friends in lively conversation,
+                            coffee ignites the spirit, invigorating both body and mind.
+                            Its warmth soothes the soul, offering a moment of respite in the hustle and bustle
+                            of modern life. From the tranquil highlands of Ethiopia to the bustling streets of Parisian
+                            cafes,
+                            coffee's allure knows no bounds, weaving its way into the fabric of cultures worldwide.
+                        </p>
+                        <p><strong> Price : Rs.919 / per kg </strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="product">
+                    <img src="choclate coffee.webp" alt="Product Image">
+                    <h2> Columbian (choclate Mocha )</h2>
+
+
+                    <button class="btn btn-primary">Add to Cart</button>
+
+                    <button class="btn-details" onclick="toggleDetails('details5')">View Details</button>
+                    <div id="details5" class="details" style="display: none;">
+                        <h5> Stock Available : LIMITED </h5>
+                        <img src="product5.png" style="border-radius: 100% ;">
+
+                        <p>Awakening the senses with its rich aroma and bold flavor,
+                            coffee is a cherished elixir that transcends mere beverage status to become a daily ritual
+                            for millions around the globe. With every sip, one embarks on a journey of discovery,
+                            exploring the nuances of its complex profile — from the earthy undertones of freshly ground
+                            beans to the robust intensity of a perfectly brewed cup.</p>
+                        <p><strong> Price : Rs.919 / per kg </strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="product">
+                    <img src="freshroast.webp" alt="Product Image">
+                    <h2> Fresh Roasted </h2>
+                    <button class="btn btn-primary">Add to Cart</button>
+
+                    <button class="btn-details" onclick="toggleDetails('details6')">View Details</button>
+                    <div id="details6" class="details" style="display: none;">
+                        <h5> Stock Available : LIMITED </h5>
+                        <img src="product1.jpg" style="border-radius: 100% ;">
+
+                        <p> Whether enjoyed alone in quiet contemplation or shared among friends in lively conversation,
+                            coffee ignites the spirit, invigorating both body and mind.
+                            Its warmth soothes the soul, offering a moment of respite in the hustle and bustle
+                            of modern life. From the tranquil highlands of Ethiopia to the bustling streets of Parisian
+                            cafes,
+                            coffee's allure knows no bounds, weaving its way into the fabric of cultures worldwide.
+                        </p>
+
+                        <p><strong> Price : Rs.1000 / per kg </strong></p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="cold-coffee">
+        <h2> Seasons <br> Special Servings <br> Everyone's favrouite Cold Coffee </h2>
+        <div class="row">
+
+            <div class="col-sm-6">
+                <div class="product">
+                    <img src="coldproduct1.jpg" style="height: 300px;" alt="Product Image">
+                    <h2> </h2>
+
+                    <button class="btn btn-primary"> Buy from here ></i></button>
+
+                    <button class="btn-details" onclick="toggleDetails('details7')">View Details here </button>
+                    <div id="details7" class="details" style="display: none;" float=>
+
+                        <h5> Stock Available : YES </h5>
+
+                        <img src="newcold1.avif" style="border-radius: 100% ;height: 200px;">
+                        <p>Imagine a frost-kissed symphony dancing atop a chilled canvas, where the robust notes of
+                            freshly brewed
+                            coffee intertwine with whispers of creamy indulgence. A tantalizing concoction,
+                            born from the delicate balance of bitter and sweet,
+                            cascades like liquid silk over ice, awakening the senses with each languid sip.</p>
+
+
+                        <p><strong> Price : Rs.300 / per Serving </strong></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6">
+                <div class="product">
+                    <img src="coldproduct2.jpg" style="height: 300px;" alt="Product Image">
+                    <h2> </h2>
+
+                    <button class="btn btn-primary"> Buy from here ></i></button>
+
+                    <button class="btn-details" onclick="toggleDetails('details8')">View Details here </button>
+                    <div id="details8" class="details" style="display: none;" float=>
+
+                        <h5> Stock Available : YES </h5>
+
+                        <img src="coldround2.webp" style="border-radius: 100% ; height: 200px;">
+                        <p> As you lift the glass to your lips, the aroma of espresso dances gracefully, inviting you
+                            into
+                            a world of sensory delight. With each sip, the rich flavor unfolds, a mosaic of
+                            complexities that linger long after the last drop is savored. It's not just a beverage; it's
+                            a journey—a moment
+                            of blissful reprieve amidst the hustle and bustle of life—a testament to the beauty found in
+                            simplicity. </p>
+
+
+                        <p><strong> Price : Rs.450 / per Serving </strong></p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>About Us</h3>
+                    <p>We are passionate about providing high-quality coffee to our customers.
+                        Our mission is to bring the best coffee experience to every cup.</p>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Contact Us</h3>
+                    <p>Email: sharmasonalika302@gmail.com</p>
+                    <p>Phone: 198655432</p>
+                    <p>Address: Vijay Nagar , Indore ,INDIA</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<script>
+
+
+
+    function toggleDetails(id) {
+        var details = document.getElementById(id);
+        if (details.style.display === "none") {
+            details.style.display = "block";
+        } else {
+            details.style.display = "none";
+        }
+    }
+</script>
+</body>
+
+</html>
